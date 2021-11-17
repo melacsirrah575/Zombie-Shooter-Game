@@ -57,7 +57,6 @@ public class EnemyAI : MonoBehaviour
     void AttackTarget()
     {
         animator.SetBool("Attack", true);
-        Debug.Log(name + " has seeked and destroying " + target.name);
     }
 
     private void OnDrawGizmosSelected()

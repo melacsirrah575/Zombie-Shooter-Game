@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] float hitPoints = 100f;
+    [SerializeField] float maxHitPoints = 100f;
+    float currentHitPoints;
+
+    private void Start()
+    {
+        currentHitPoints = maxHitPoints;
+    }
 
     public void TakeDamage(float damage)
     {
-        hitPoints -= damage;
-        if(hitPoints <= 0)
+        currentHitPoints -= damage;
+        if(currentHitPoints <= 0)
         {
             Destroy(gameObject);
         }
