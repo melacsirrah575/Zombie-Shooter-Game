@@ -30,7 +30,7 @@ public class WeaponSwitcher : MonoBehaviour
         if(Input.GetAxis("Mouse ScrollWheel") > 0)
         {
             //If at max index, go back to 0, else increment
-            if(currentWeapon >= transform.childCount - 1)
+            if(currentWeapon <= transform.childCount - 1)
             {
                 currentWeapon = 0;
             } else
@@ -42,7 +42,7 @@ public class WeaponSwitcher : MonoBehaviour
         if (Input.GetAxis("Mouse ScrollWheel") < 0)
         {
             //If at max index, go back to 0, else increment
-            if (currentWeapon <= 0)
+            if (currentWeapon >= 0)
             {
                 currentWeapon = transform.childCount - 1;
             }

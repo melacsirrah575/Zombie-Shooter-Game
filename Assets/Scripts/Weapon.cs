@@ -11,9 +11,16 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] GameObject hitEffect;
     [SerializeField] Ammo ammoSlot;
+    [SerializeField] AmmoType ammoType;
     [SerializeField] [Range(0.01f, 2f)] float timeBetweenShots = .5f;
 
     bool canShoot = true;
+
+    private void OnEnable()
+    {
+        //Stops weapons from no long shooting when swapping to a different before timeBetweenShots finishes
+        canShoot = true;
+    }
 
     void Update()
     {
@@ -28,9 +35,9 @@ public class Weapon : MonoBehaviour
 
     IEnumerator Shoot()
     {
-        if (ammoSlot.GetCurrentAmmo() > 0)
+        if (ammoSlot.GetCurrentAmmo(ammoType) > 0)
         {
-            ammoSlot.ReduceCurrentAmmo();
+            ammoSlot.ReduceCurrentAmmo(ammoType);
             PlayMuzzleFlash();
             ProcessRaycast();
         }
