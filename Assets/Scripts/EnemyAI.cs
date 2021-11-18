@@ -34,6 +34,12 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    public void OnDamageTaken()
+        //Function being used in BroadcastMessage: (EnemyHealth, 17)
+    {
+        isProvoked = true;
+    }
+
     void EngageTarget()
     {
         FaceTarget();
