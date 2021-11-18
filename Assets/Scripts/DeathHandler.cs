@@ -17,6 +17,7 @@ public class DeathHandler : MonoBehaviour
 
         //The equivilent of pressing the ESC key from code for the player
         Time.timeScale = 0;
+        FindObjectOfType<WeaponSwitcher>().enabled = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
