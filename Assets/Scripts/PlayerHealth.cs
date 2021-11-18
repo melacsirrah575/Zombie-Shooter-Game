@@ -17,8 +17,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
         if(currentHealth <= 0)
         {
-            //Handle Player Death
-            Debug.Log("Player has been hit!");
+            GetComponent<DeathHandler>().HandleDeath();
         }
     }
 }
