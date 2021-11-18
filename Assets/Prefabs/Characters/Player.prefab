@@ -534,6 +534,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400004}
     - target: {fileID: 1756128998350133473, guid: 59679f1f02e172b4f883dbd1b69994b4, type: 3}
+      propertyPath: range
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756128998350133473, guid: 59679f1f02e172b4f883dbd1b69994b4, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 2000000}
