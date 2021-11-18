@@ -11,6 +11,8 @@ public class EnemyAI : MonoBehaviour
 
     NavMeshAgent navMeshAgent;
     Animator animator;
+    EnemyHealth health;
+
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked = false;
 
@@ -19,11 +21,19 @@ public class EnemyAI : MonoBehaviour
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+        health = GetComponent<EnemyHealth>();
     }
 
 
     void Update()
     {
+        if(health.IsDead())
+        {
+            //Disable just this component and the navMeshAgent on death
+            enabled = false;
+            navMeshAgent.enabled = false;
+        }
+
         distanceToTarget = Vector3.Distance(target.position, transform.position);
         if(isProvoked)
         {
@@ -56,6 +66,18 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    void FaceTarget()
+    {
+        //Interested in direction but don't want to apply any of the magnitude or distance
+        Vector3 direction = (target.position - transform.position).normalized;
+
+        //Derives from the direction set above
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+
+        //Slerp = Spherical Interpolation: allows us to rotate smoothly between 2 Vectors
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed);
+    }
+
     void ChaseTarget()
     {
         animator.SetBool("Attack", false);
@@ -66,17 +88,6 @@ public class EnemyAI : MonoBehaviour
     void AttackTarget()
     {
         animator.SetBool("Attack", true);
-    }
-
-    void FaceTarget()
-    {
-        //Interested in direction but don't want to apply any of the magnitude or distance
-        Vector3 direction = (target.position - transform.position).normalized;
-
-        //Derives from the direction set above
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        //Slerp = Spherical Interpolation: allows us to rotate smoothly between 2 Vectors
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed);
     }
 
     private void OnDrawGizmosSelected()
