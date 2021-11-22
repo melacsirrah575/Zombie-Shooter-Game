@@ -400,6 +400,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   playerHurt: {fileID: 8300000, guid: b71c0db48520aa34b9fe415eeb71c1f4, type: 3}
+  playerHealth: {fileID: 0}
+  chromaticAberration: {fileID: 0}
+  chromaticIntensityUpper: 5
+  vignette: {fileID: 0}
+  vignetteIntensityUpper: 5
 --- !u!114 &4227276419788354780
 MonoBehaviour:
   m_ObjectHideFlags: 0
