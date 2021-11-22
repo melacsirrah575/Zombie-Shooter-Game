@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 5
   ammoType: 0
+  bulletPickup: {fileID: 8300000, guid: 2dc1d01c6d5c46e45b0c909f4f65e94c, type: 3}
+  shellPickup: {fileID: 8300000, guid: f9a013745fee65a439f91dcb7cb3ea74, type: 3}
 --- !u!135 &5017977568797269045
 SphereCollider:
   m_ObjectHideFlags: 0

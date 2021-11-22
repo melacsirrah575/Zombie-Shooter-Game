@@ -189,7 +189,7 @@ PrefabInstance:
       objectReference: {fileID: 999552148}
     - target: {fileID: 4608136915969792292, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_VersionIndex
-      value: 608
+      value: 614
       objectReference: {fileID: 0}
     - target: {fileID: 5539910712997714568, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_Mesh
@@ -214,6 +214,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -275,6 +279,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -341,6 +349,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -422,6 +434,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -542,7 +558,7 @@ PrefabInstance:
       objectReference: {fileID: 653910179}
     - target: {fileID: 4608136915969792292, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_VersionIndex
-      value: 608
+      value: 614
       objectReference: {fileID: 0}
     - target: {fileID: 5539910712997714568, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_Mesh
@@ -2216,6 +2232,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2366,6 +2386,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -2675,6 +2699,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -2795,7 +2823,7 @@ PrefabInstance:
       objectReference: {fileID: 994415404}
     - target: {fileID: 4608136915969792292, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_VersionIndex
-      value: 605
+      value: 611
       objectReference: {fileID: 0}
     - target: {fileID: 5539910712997714568, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_Mesh
@@ -2889,6 +2917,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3354,6 +3386,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -3600,6 +3636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -4264,7 +4304,7 @@ PrefabInstance:
       objectReference: {fileID: 1132449524}
     - target: {fileID: 4608136915969792292, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_VersionIndex
-      value: 605
+      value: 611
       objectReference: {fileID: 0}
     - target: {fileID: 5539910712997714568, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_Mesh
@@ -4365,6 +4405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 789348969}
+  - component: {fileID: 789348970}
   m_Layer: 0
   m_Name: Enviroment
   m_TagString: Untagged
@@ -4392,6 +4433,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &789348970
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789348968}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aae730299df00a2449283699dd1d9368, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &813799931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4399,6 +4536,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -4639,6 +4780,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -4782,6 +4927,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5250,6 +5399,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -6039,6 +6192,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -6164,7 +6321,7 @@ PrefabInstance:
       objectReference: {fileID: 1639277230}
     - target: {fileID: 4608136915969792292, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_VersionIndex
-      value: 608
+      value: 614
       objectReference: {fileID: 0}
     - target: {fileID: 5539910712997714568, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_Mesh
@@ -6179,6 +6336,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -6240,6 +6401,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6306,6 +6471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -6372,6 +6541,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -6438,6 +6611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -6499,6 +6676,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -6629,6 +6810,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -6695,6 +6880,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -6756,6 +6945,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -8543,6 +8736,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -8671,6 +8868,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -8732,6 +8933,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -8793,6 +8998,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -8859,6 +9068,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -9089,6 +9302,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -9399,6 +9616,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -9460,6 +9681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9575,7 +9800,7 @@ PrefabInstance:
       objectReference: {fileID: 521912195}
     - target: {fileID: 4608136915969792292, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_VersionIndex
-      value: 608
+      value: 614
       objectReference: {fileID: 0}
     - target: {fileID: 5539910712997714568, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_Mesh
@@ -9682,6 +9907,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -9748,6 +9977,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -9814,6 +10047,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9929,7 +10166,7 @@ PrefabInstance:
       objectReference: {fileID: 364071534}
     - target: {fileID: 4608136915969792292, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_VersionIndex
-      value: 608
+      value: 614
       objectReference: {fileID: 0}
     - target: {fileID: 5539910712997714568, guid: 756f14d0ccfdf6e41a6eea9e747b93c2, type: 3}
       propertyPath: m_Mesh
@@ -9944,6 +10181,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1011672733}
     m_Modifications:
+    - target: {fileID: 5527743261133336630, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
+      propertyPath: zombieDeathAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 4834a8175908fd046a9584e2dfde5b38, type: 3}
     - target: {fileID: 8714920645231746915, guid: dbbd0b392771853429c94e4ce0b88df4, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -10221,10 +10462,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10269,46 +10506,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1096109358248417002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_ShowToolkit
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1176889118797866455, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: damage
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1176889118797866455, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: timeBetweenShots
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756128998350133473, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: range
-      value: 60
+    - target: {fileID: 1985207736, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1958434491206610428, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 574330029}
-    - target: {fileID: 2220772706113608377, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2848924087823341120, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: zoomedOutFOV
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 2848924087823341120, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: zoomedInSensitivity
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3236525303061590107, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 574330029}
-    - target: {fileID: 3236525303061590107, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: timeBetweenShots
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3482563709364173522, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: batteryDisplaySlider
       value: 
@@ -10321,10 +10530,6 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 674666898}
-    - target: {fileID: 4375884977017708428, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6515656159871138878, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: ammoText
       value: 

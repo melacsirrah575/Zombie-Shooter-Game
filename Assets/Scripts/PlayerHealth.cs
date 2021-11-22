@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] float maxHealth = 100f;
+    [SerializeField] AudioClip playerHurt;
+
     float currentHealth;
 
     void Start()
@@ -14,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void PlayerTakeDamage(float damage)
     {
+        AudioSource.PlayClipAtPoint(playerHurt, transform.position);
         currentHealth -= damage;
         if(currentHealth <= 0)
         {

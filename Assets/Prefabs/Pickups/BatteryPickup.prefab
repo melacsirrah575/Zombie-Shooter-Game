@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restoreAngle: 90
   addIntensity: 1
+  batteryPickupAudio: {fileID: 8300000, guid: 1f1f3550dd624db4ba47d55d144d586d, type: 3}
 --- !u!135 &8838565194172143600
 SphereCollider:
   m_ObjectHideFlags: 0

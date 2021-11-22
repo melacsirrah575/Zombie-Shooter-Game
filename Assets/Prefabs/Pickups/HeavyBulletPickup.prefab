@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: ammoType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1681625193, guid: a1aec779406257d4d84ff892c0cb3ea7, type: 3}
+      propertyPath: shellPickup
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3955344745322509995, guid: a1aec779406257d4d84ff892c0cb3ea7, type: 3}
       propertyPath: m_RootOrder
       value: 0

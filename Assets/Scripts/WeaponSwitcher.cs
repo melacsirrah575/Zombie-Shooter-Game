@@ -6,6 +6,7 @@ using UnityEngine;
 public class WeaponSwitcher : MonoBehaviour
 {
     [SerializeField] int currentWeapon = 0;
+    public int CurrentWeapon { get { return currentWeapon; } }
 
     void Start()
     {

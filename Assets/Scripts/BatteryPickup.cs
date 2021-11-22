@@ -6,6 +6,7 @@ public class BatteryPickup : MonoBehaviour
 {
     [SerializeField] float restoreAngle = 90f;
     [SerializeField] float addIntensity = 1f;
+    [SerializeField] AudioClip batteryPickupAudio;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,6 +14,8 @@ public class BatteryPickup : MonoBehaviour
         {
             other.GetComponentInChildren<FlashlightSystem>().RestoreLightAngle(restoreAngle);
             other.GetComponentInChildren<FlashlightSystem>().AddLightIntensity(addIntensity);
+
+            AudioSource.PlayClipAtPoint(batteryPickupAudio, transform.position);
 
             Destroy(gameObject);
         }
