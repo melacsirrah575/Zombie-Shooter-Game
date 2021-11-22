@@ -32,6 +32,6 @@ public class EnemyHealth : MonoBehaviour
     {
         if(isDead) { return; }
         isDead = true;
-        GetComponent<Animator>().SetTrigger("Die");
+        GetComponent<Animator>().SetTrigger("Dead");
     }
 }
