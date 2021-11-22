@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d87dd5de1029e4ca811aa7136a8e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 10
 --- !u!95 &8291442622518108643
 Animator:
   serializedVersion: 3
