@@ -17,5 +17,6 @@ public class EnemyAttack : MonoBehaviour
     {
         if(target == null) { return; }
         target.GetComponent<PlayerHealth>().PlayerTakeDamage(damage);
+        target.GetComponent<DisplayDamage>().ShowDamageCanvas();
     }
 }
