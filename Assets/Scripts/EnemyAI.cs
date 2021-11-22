@@ -5,13 +5,13 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] Transform target;
     [SerializeField] float chaseRange = 10f;
     [SerializeField] float turnSpeed = 5f;
 
     NavMeshAgent navMeshAgent;
     Animator animator;
     EnemyHealth health;
+    Transform target;
 
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked = false;
@@ -22,6 +22,7 @@ public class EnemyAI : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         health = GetComponent<EnemyHealth>();
+        target = FindObjectOfType<PlayerHealth>().transform;
     }
 
 
@@ -32,15 +33,17 @@ public class EnemyAI : MonoBehaviour
             //Disable just this component and the navMeshAgent on death
             enabled = false;
             navMeshAgent.enabled = false;
-        }
-
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
-        if(isProvoked)
+        } else if (!health.IsDead())
         {
-            EngageTarget();
-        } else if (distanceToTarget <= chaseRange)
-        {
-            isProvoked = true;
+            distanceToTarget = Vector3.Distance(target.position, transform.position);
+            if (isProvoked)
+            {
+                EngageTarget();
+            }
+            else if (distanceToTarget <= chaseRange)
+            {
+                isProvoked = true;
+            }
         }
     }
 
