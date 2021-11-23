@@ -16,6 +16,7 @@ public class GameWin : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             Time.timeScale = 0;
+            Cursor.visible = true;
             winCanvas.enabled = true;
         }
     }

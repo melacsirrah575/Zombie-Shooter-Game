@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
 
             //Turn off the MainMenu gameobject
             m_mainMenu.SetActive(false);
+            Cursor.visible = false;
         }
     }
 
@@ -71,6 +72,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
         m_isPaused = true;
         m_mainMenu.SetActive(true);
-
+        Cursor.visible = true;
     }
 }
