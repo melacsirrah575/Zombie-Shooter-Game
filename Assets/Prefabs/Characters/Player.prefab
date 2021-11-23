@@ -401,10 +401,6 @@ MonoBehaviour:
   maxHealth: 100
   playerHurt: {fileID: 8300000, guid: b71c0db48520aa34b9fe415eeb71c1f4, type: 3}
   playerHealth: {fileID: 0}
-  chromaticAberration: {fileID: 0}
-  chromaticIntensityUpper: 5
-  vignette: {fileID: 0}
-  vignetteIntensityUpper: 5
 --- !u!114 &4227276419788354780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,6 +716,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1176889118797866455, guid: b8472c75b2bc2ee4b98e87869dace24f, type: 3}
+      propertyPath: range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176889118797866455, guid: b8472c75b2bc2ee4b98e87869dace24f, type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176889118797866455, guid: b8472c75b2bc2ee4b98e87869dace24f, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 2000000}
@@ -819,7 +823,11 @@ PrefabInstance:
       objectReference: {fileID: 11400004}
     - target: {fileID: 1756128998350133473, guid: 59679f1f02e172b4f883dbd1b69994b4, type: 3}
       propertyPath: range
-      value: 60
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756128998350133473, guid: 59679f1f02e172b4f883dbd1b69994b4, type: 3}
+      propertyPath: damage
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1756128998350133473, guid: 59679f1f02e172b4f883dbd1b69994b4, type: 3}
       propertyPath: FPCamera
