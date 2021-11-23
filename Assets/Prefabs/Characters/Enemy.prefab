@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300a359b515b4574099948a57cb18ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseRange: 10
+  chaseRange: 12
   turnSpeed: 5
 --- !u!114 &5527743261133336630
 MonoBehaviour:
@@ -190,7 +190,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 25facb0e93879e747bfd827c720f940e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
-  m_Pitch: 1
+  m_Pitch: 0.8
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -198,7 +198,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 15
+  MaxDistance: 30
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0

@@ -428,7 +428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoSlots:
   - ammoType: 0
-    ammoAmount: 20
+    ammoAmount: 21
   - ammoType: 1
     ammoAmount: 15
   - ammoType: 2
